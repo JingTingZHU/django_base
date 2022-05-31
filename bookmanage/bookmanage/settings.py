@@ -25,7 +25,8 @@ SECRET_KEY = 'lbpl@@jrxdyt2+lwt)cp3a8*)+i)(wiqp@wb7ae9p7zco#qv02'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# 127.0.0.1
+ALLOWED_HOSTS = ['192.168.75.129']
 
 
 # Application definition
@@ -76,6 +77,7 @@ WSGI_APPLICATION = 'bookmanage.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# sqlite3 is guanxixing sql
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
